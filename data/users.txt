@@ -1,0 +1,8 @@
+1,Ana,Lazar
+2,Maria,Daria
+3,Patricia,Oana
+4,Alexandru,Pop
+5,Lica,Samadaul
+6,Trica,Radu
+8,Snagov,Mihai
+9,pp,aaa

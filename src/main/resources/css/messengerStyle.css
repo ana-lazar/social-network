@@ -1,0 +1,120 @@
+@font-face {
+    src: url("Montserrat-Light.ttf");
+}
+
+.button {
+    -fx-background-color: black;
+    -fx-font-size: 11px;
+    -fx-font-family: "Montserrat";
+    -fx-text-fill: #ffffff;
+    -fx-border-color: white;
+    -fx-border-width: 0.5px;
+    -fx-border-radius: 4px;
+    -fx-margin: 4px 2px;
+}
+
+.date-picker {
+    -fx-background-color: black;
+    -fx-font-size: 11px;
+    -fx-font-family: "Montserrat";
+    -fx-text-fill: #ffffff;
+}
+
+.date-picker .text-field {
+    -fx-background-color: black;
+    -fx-font-size: 11px;
+    -fx-font-family: "Montserrat";
+    -fx-text-fill: #ffffff;
+}
+
+.date-picker:focused .text-field  {
+    -fx-background-color: black;
+    -fx-font-size: 11px;
+    -fx-font-family: "Montserrat";
+    -fx-text-fill: #ffffff;
+}
+
+.date-picker .button {
+    -fx-background-color: black;
+    -fx-font-size: 11px;
+    -fx-font-family: "Montserrat";
+    -fx-text-fill: #ffffff;
+}
+
+.date-picker .combo-box {
+    -fx-background-color: black;
+    -fx-font-size: 11px;
+    -fx-font-family: "Montserrat";
+    -fx-text-fill: #ffffff;
+}
+
+.date-picker .list-view {
+    -fx-background-color: black;
+    -fx-font-size: 11px;
+    -fx-font-family: "Montserrat";
+    -fx-text-fill: #ffffff;
+}
+
+.date-picker .list-cell {
+    -fx-background-color: black;
+    -fx-font-size: 11px;
+    -fx-font-family: "Montserrat";
+    -fx-text-fill: #ffffff;
+}
+
+#feedAnchorPane {
+    -fx-background-image:url('../design/back.jpg');
+}
+
+#chatPane {
+    -fx-text-fill: black;
+    -fx-font-size: 11px;
+}
+
+#usersView {
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+    -fx-border-color: white;
+    -fx-border-width: 0.5px;
+    -fx-border-radius: 4px;
+    -fx-margin: 4px 2px;
+}
+
+.list-view .list-cell {
+    -fx-background-color: #000000;
+    -fx-text-fill: white;
+    -fx-font-size: 12px;
+    -fx-font-family: "Montserrat";
+}
+
+.list-view .list-cell:selected {
+    -fx-background-color: #000000;
+    -fx-text-fill: #9aba95;
+    -fx-font-size: 12px;
+    -fx-font-family: "Montserrat";
+}
+
+#headerLabel {
+    -fx-font-family: "Montserrat";
+    -fx-text-fill: #ffffff;
+}
+
+#friendsLabel {
+    -fx-font-family: "Montserrat";
+    -fx-text-fill: #ffffff;
+}
+
+#messengerLabel {
+    -fx-font-family: "Montserrat";
+    -fx-text-fill: #ffffff;
+}
+
+#fromLabel {
+    -fx-font-family: "Montserrat";
+    -fx-text-fill: #ffffff;
+}
+
+#toLabel {
+    -fx-font-family: "Montserrat";
+    -fx-text-fill: #ffffff;
+}

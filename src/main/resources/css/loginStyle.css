@@ -1,0 +1,35 @@
+@font-face {
+    src: url("Montserrat-Light.ttf");
+}
+
+#login_button {
+    -fx-background-color: #000000;
+    -fx-font-size: 11px;
+    -fx-font-family: "Montserrat";
+    -fx-text-fill: #ffffff;
+    -fx-border-color: white;
+    -fx-border-width: 0.5px;
+    -fx-border-radius: 4px;
+    -fx-margin: 4px 2px;
+}
+
+.text-field:empty {
+    -fx-alignment: center ;
+}
+
+.text-field:empty:focused {
+    -fx-alignment: center-left ;
+}
+
+.text-field {
+    -fx-background-color: #a9a9a9 , black , black;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+    -fx-font-size: 11px;
+    -fx-font-family: "Montserrat";
+    -fx-text-fill: #ffffff;
+}
+
+.text-field:focused {
+    -fx-background-color: #a9a9a9 , black , black;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
